@@ -205,7 +205,7 @@ def admin_decision(call):
                 f"✅ <b>ПАРДОХТИ ФАРМОИШ #{order_id} ТАСДИҚ ШУД!</b>\n\n"
                 f"🎊 Ташаккур барои фармоиш!\n"
                 f"🚚 Мо фармоишатонро омода мекунем.\n\n"
-                f"📞 Савол бошад: +992 123 456 789",
+                f"📞 Савол бошад: +992 935 745 564",
                 parse_mode="HTML",
                 reply_markup=main_kb()
             )
@@ -225,7 +225,7 @@ def admin_decision(call):
                 user_id,
                 f"❌ <b>Фармоиш #{order_id} рад шуд.</b>\n\n"
                 f"Пардохт тасдиқ нашуд.\n"
-                f"📞 Барои маълумот: +992 123 456 789",
+                f"📞 Барои маълумот: +992 935 745 564",
                 parse_mode="HTML",
                 reply_markup=main_kb()
             )
@@ -302,9 +302,9 @@ def show_contacts(m):
     bot.send_message(
         m.chat.id,
         "📞 <b>Тамос бо мо:</b>\n\n"
-        "📱 Телефон: <b>+992 123 456 789</b>\n"
-        "💬 WhatsApp: <b>+992 123 456 789</b>\n"
-        "📍 Шаҳр: <b>Душанбе</b>\n"
+        "📱 Телефон: <b>+992  935 745 564</b>\n"
+        "💬 WhatsApp: <b>+992 935 745 564</b>\n"
+        "📍 Шаҳр: <b>Бохтар</b>\n"
         "🕐 Кор: <b>08:00 – 22:00</b>",
         parse_mode="HTML",
         reply_markup=main_kb()
